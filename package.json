@@ -1,0 +1,17 @@
+{
+  "name": "kdata-gate-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for K-Data Gate — Korean market data (K-beauty/K-food products, Naver trends, stocks, DART disclosures, real estate, tourism, weather) in English JSON for AI agents.",
+  "type": "module",
+  "bin": { "kdata-gate-mcp": "server.mjs" },
+  "files": ["server.mjs", "README.md"],
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "model-context-protocol", "korea", "korean-data", "k-beauty", "k-food", "kpop", "naver-trends", "korean-stocks", "dart", "ai-agents"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/loved0543-dotcom/kdata-gate-mcp" },
+  "homepage": "https://kdata-gate.vercel.app",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  }
+}
