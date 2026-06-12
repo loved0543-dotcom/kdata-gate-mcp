@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.loved0543-dotcom/kdata-gate",
+  "description": "Korean market data for AI agents and sellers sourcing from Korea: K-beauty/K-food/K-pop product search, Naver search trends, Korean stocks with English DART summaries, apartment transactions, tourism, weather. English JSON, 13 tools, free pilot.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/loved0543-dotcom/kdata-gate-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://kdata-gate.vercel.app/mcp"
+    }
+  ]
+}
